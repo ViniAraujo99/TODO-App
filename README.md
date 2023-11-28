@@ -1,3 +1,3 @@
-## TODO App
-# React + TypeScript + Vite
+# TODO App
+## React + TypeScript + Vite
 
