@@ -1,0 +1,36 @@
+
+.listaTarefas
+    margin: 30px 0
+    display: flex
+    flex-direction: column
+    color: #fff
+    font-size: 10px
+    gap: 2.5px
+
+.listaTarefas__container
+    border-radius: 10px
+    text-align: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    gap: 10px
+
+@media screen and (min-width: 720px)
+    .listaTarefas__hist
+        font-size: 16px
+
+    .listaTarefas__container
+        display: grid
+        grid-template-columns: 1fr 1fr
+
+@media screen and (min-width: 1080px)
+    .listaTarefas
+        width: 100%
+        grid-area: 1 / 2 span
+        margin: 0
+        align-self: flex-start
+
+    .listaTarefas__container
+        display: flex

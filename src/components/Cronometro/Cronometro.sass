@@ -1,0 +1,59 @@
+.cronometro
+    margin: 30px 0
+    display: flex
+    flex-direction: column
+    color: #fff
+    font-size: 10px
+    gap: 2.5px
+
+.cronometro__container
+    background-color: #353434
+    padding: 10px 15px
+    border-radius: 10px
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 10px
+
+.cronometro__container
+    .timer
+        background-color: #262525
+        padding: 5px 10px
+        border-radius: 10px
+
+.cronometro__container
+    span
+        font-size: 64px
+
+@media screen and (min-width: 720px)
+    .cronometro
+        font-size: 16px
+
+    .cronometro__container
+        span
+            font-size: 192px
+
+@media screen and (min-width: 1080px)
+    .cronometro
+        grid-area: 2/1
+        align-items: center
+        justify-content: center
+        width: 100%
+
+    .cronometro
+        p
+            text-align: center
+            width: 60%
+
+    .cronometro__container
+        width: 80%
+        display: flex
+
+    .cronometro__container
+        .timer
+            width: 90%
+
+    .cronometro__container
+        span
+            font-size: 65px
