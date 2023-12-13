@@ -13,4 +13,4 @@ Baseado no curso da Alura e o primeiro contato com React, Sass e Typescript
 
 
 #### Observações:
-Obs: A responsabilidade não era foco do projeto então o posicionamento de alguns elementes não foi estudado, mas foram criados alguns breakpoints para se adaptar a diversos tamanhos de dispositivos. 
+Obs: A responsividade não era foco do projeto então o posicionamento de alguns elementes não foi estudado, mas foram criados alguns breakpoints para se adaptar a diversos tamanhos de dispositivos. 
